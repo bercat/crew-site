@@ -1,0 +1,49 @@
+body{
+  background-color: #EAF6F6;
+}
+
+.noe{
+  margin: 16px;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 300px; /* only if you want fixed height */
+  justify-content: center;
+}
+#first-text{
+    font-size: 30px;
+    color: #EAF6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.limit{
+    background: #65B237;
+    height: 50vh;
+    
+    border: 10px solid grey;
+    max-width: 700px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.limit2{
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+  
+}
+
+.image-center{
+  margin:0 auto;
+}
+@media (max-width:992px){
+  .image-center{
+    margin:20px auto;
+  }
+}
